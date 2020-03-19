@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Food Jinni</string>
+    <string name="gmap_key">AIzaSyDCc9JQNpOIya0IhBTVdp-hbi7LGAGguzI</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="nav_drawer_opened">drawer opened</string>
+    <string name="nav_drawer_closed">drawer closed</string>
+
+</resources>

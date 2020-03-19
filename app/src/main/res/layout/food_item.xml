@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/getFoodDetails222"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+
+        <LinearLayout
+            android:paddingTop="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fride Rice"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:id="@+id/food_name"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:id="@+id/food_mi"/>
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:id="@+id/food_qu"/>
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:id="@+id/food_plu"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:gravity="center"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="100.00"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:id="@+id/food_priceS"/>
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/delete"
+                android:id="@+id/delete"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:text="Fride Rice"
+            android:id="@+id/food_edit"/>
+        <TextView
+            android:id="@+id/note_Show"
+            android:layout_marginLeft="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="18dp"
+        android:background="#949494"/>
+</LinearLayout>
+

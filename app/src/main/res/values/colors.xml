@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="gplus_colors">
+        <item>@color/colorMain</item>
+        <item>@color/textColorOrange</item>
+        <item>@color/colorMain</item>
+        <item>@color/textColorOrange</item>
+
+    </integer-array>
+
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorMain">#FE5C43</color>
+    <color name="colorSubMain">#CCFE5C43</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="textColorWhite">#fff</color>
+    <color name="textColorBlack">#000000</color>
+    <color name="textColorOrange">#ffa82c</color>
+    <color name="colorblack">#000</color>
+    <color name="White">#FFF</color>
+</resources>

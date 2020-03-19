@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/nav_header_main"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="160dp"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:paddingTop="16dp"
+        android:background="@drawable/food_jinni" />
+
+    <TextView
+        android:id="@+id/Navi_head_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        />
+
+    <TextView
+        android:textColor="#FFF"
+        android:id="@+id/Navi_Mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test@android.com" />
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_sign_up"
+    tools:context=".register.SignUp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="60dp"
+                android:textColorHint="@color/colorblack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+                <EditText
+                    android:id="@+id/signup_name"
+                    android:hint="Enter your name"
+                    android:inputType="textCapWords"
+                    android:textColor="@color/colorblack"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:textColor="@color/colorblack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/signup_number"
+                    android:hint="Enter your Mobile Number"
+                    android:inputType="phone"
+                    android:textColor="@color/colorblack"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:textColor="@color/colorblack"
+                android:id="@+id/signup_input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/signup_email"
+                    android:hint="Enter your email"
+                    android:inputType="textCapWords"
+                    android:textColor="@color/colorblack"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:textColor="@color/colorblack"
+                android:id="@+id/login_input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/signup_password"
+                    android:hint="Enter your Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="@color/colorblack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:background="@drawable/write_text_2">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Gender"
+                    android:textColor="@color/colorblack"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+                <RadioGroup
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:textColor="@color/colorblack"
+                        android:id="@+id/signup_Gmale"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Female"
+                        android:textColor="@color/colorblack"
+                        android:id="@+id/signup_Gfemale"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/signup_btn_register"
+                android:text="Register"
+                android:background="@drawable/new_list"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="singup"/>
+
+
+            <TextView
+                android:id="@+id/signup_btn_login"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:textStyle="bold"
+                android:text="Already account ? Login me !"
+                android:textColor="@color/colorblack"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

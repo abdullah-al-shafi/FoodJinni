@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        >
+        <item
+
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@android:drawable/picture_frame"
+            >
+        </item>
+
+<!--        <item
+
+            android:id="@+id/nav_sbr"
+            android:title="SPACE BOOKING REQU"
+            android:icon="@android:drawable/picture_frame"
+            >
+        </item>-->
+        <item
+            android:id="@+id/nav_myorder"
+            android:title="MyOrder"
+            android:icon="@android:drawable/sym_contact_card"
+            >
+        </item>
+
+<!--        &lt;!&ndash;<item
+            android:id="@+id/nav_DriverList"
+            android:title="DRIVER LIST"
+            android:icon="@android:drawable/sym_contact_card"
+            >
+        </item>-->
+        <item android:title="Other">
+        <menu>
+
+<!--        <item
+            android:id="@+id/nav_Profile"
+            android:title="Profile"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            >
+        </item>-->
+        <item
+            android:id="@+id/nav_logOut"
+            android:title="LOG OUT"
+            android:icon="@android:drawable/ic_menu_upload"
+            >
+        </item>
+        </menu>
+        </item>
+
+
+        -->
+        <!--<item
+            android:id="@+id/nav_Datenschutzerklarung"
+            android:title="Datenschutzerklarung"
+            android:icon="@android:drawable/sym_contact_card"
+            >
+        </item>
+
+
+
+&lt;!&ndash;        <item
+            android:id="@+id/nav_online"
+            android:title="ORDER ONLINE"
+            android:icon="@android:drawable/presence_online"
+            >
+        </item>&ndash;&gt;
+        <item android:title="ORDER ONLINE">
+            <menu>
+                <item
+                    android:id="@+id/nav_onlineA"
+                    android:title="STORE A"
+                    android:icon="@android:drawable/presence_online"
+                    >
+                </item>
+                <item
+
+                    android:id="@+id/nav_onlineB"
+                    android:title="STORE B"
+                    android:icon="@android:drawable/presence_online"
+                    >
+                </item>
+            </menu>
+        </item>
+
+
+
+
+
+
+        <item android:title="CAll">
+            <menu>
+                <item
+
+                    android:id="@+id/nav_call1"
+                    android:title="+8801812583840"
+                    android:icon="@android:drawable/sym_call_outgoing"
+                    >
+                </item>
+                <item
+
+                    android:id="@+id/nav_call2"
+                    android:title="+8801812583840"
+                    android:icon="@android:drawable/sym_call_outgoing"
+                    >
+                </item>
+            </menu>
+        </item>-->
+
+<!--        <item
+            android:id="@+id/nav_call"
+            android:title="CALL"
+            android:icon="@android:drawable/sym_call_outgoing"
+            >
+        </item>-->
+
+
+    </group>
+
+</menu>

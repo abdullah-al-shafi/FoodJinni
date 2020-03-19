@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FoodActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60pt">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/resturentImage"
+            android:src="@drawable/food"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:padding="8dp"
+            android:background="#802E3549"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/resturentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resturent Name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                />
+            <TextView
+                android:id="@+id/resturentType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resturent Name"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/menuName"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/foodRecy"/>
+
+
+        <FrameLayout
+            android:visibility="invisible"
+            android:id="@+id/fram"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                app:srcCompat="@drawable/curt2_wh"/>
+
+            <TextView
+                android:id="@+id/item"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circel_background2"
+                android:elevation="7dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

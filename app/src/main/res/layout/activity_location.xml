@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/liniae"
+    tools:context=".LocationActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nk_mono"
+                android:text="Welcome To"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nk_mono"
+                android:id="@+id/storeTv"
+                android:text="Food jinni"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="32sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="512px"
+                android:layout_height="512px"
+                android:src="@drawable/food_jinni"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120pt"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+
+
+                <EditText
+                    android:id="@+id/mCurrent_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="20pt"
+                    android:layout_marginRight="32dp"
+                    android:background="@drawable/pick_info"
+                    android:fontFamily="@font/amiko_semibold"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textSize="16sp" />
+
+
+                <Button
+                    android:layout_marginTop="20pt"
+                    android:onClick="delivery"
+                    android:fontFamily="@font/nk_mono"
+                    android:layout_width="72pt"
+                    android:layout_height="24pt"
+                    android:text="Delivery"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:background="@drawable/store_background"
+                    android:textColor="#FFF"
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your current location will be fetched automatically"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/nk_mono"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
